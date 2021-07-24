@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My first bootstrap</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+      .cover {
+        background: url(img/bg.png);
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="alert alert-info text-center mb-0 rounded-0 alert-dismissible fade show">
+        alert ! alert! alert!
+        <button class="close" data-dismiss="alert">
+          &times;
+        </button>
+      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <a href="" class="navbar-brand">logo</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" class="nav-link">link</a></li>
+              <li class="nav-item"><a href="" class="nav-link">link</a></li>
+              <li class="nav-item"><a href="" class="nav-link">link</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="cover text-white text-center py-5">
+        <h1 class="display-4 mb-4">My first bootsrap</h1>
+        <a href="" class="btn btn-primary btn-lg">Get It Now</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- 特徴 -->
+      <section class="py-5">
+        <h2 class="text-center mb-5">Features</h2>
+        <div class="container">
+          <div class="mb-3 row">
+            <div class="col-sm-8">
+              <h3>Phone</h3>
+              <p>text text text text text text text text text text text text text text text text</p>
+            </div>
+            <div class="col-sm-4">
+              <img src="img/phone.png" class="w-50 rounded-circle">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8 order-sm-2">
+              <h3>Movie</h3>
+              <p>text text text text text text text text text text text text text text text text</p>
+            </div>
+            <div class="col-sm-4 order-sm-1">
+              <img src="img/youtube.png" class="w-50 rounded-circle">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 表の作成 -->
+      <section class="bg-light text-center py-5">
+        <h2 class="mb-5">plans</h2>
+        <div class="container">
+          <table class="table table-hover">
+            <thead>
+              <tr><th>plan a</th><th>plan b</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>plan a</td><td>plan b</td></tr>
+              <tr><td>plan a</td><td>plan b</td></tr>
+              <tr><td>plan a</td><td>plan b</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ナビゲーションバー -->
+      <section class="py-5">
+        <h2 class="mb-5 text-center">How to use</h2>
+        <div class="container">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#ios" class="nav-link active" data-toggle="tab">ios</a></li>
+            <li class="nav-item"><a href="#android" class="nav-link" data-toggle="tab">android</a></li>
+          </ul>
+          <div class="tab-content py-4">
+            <div id="ios" class="tab-pane active">
+              <p>about ios about ios <sapn class="font-weight-bold text-info" data-toggle="tooltip" title="This is good" data-placement="bottom">about ios about ios</sapn> about ios about ios about ios about ios about ios about ios</p>
+            </div>
+            <div id="android" class="tab-pane">
+              <p>about android about android about android about android about android about android about android about android about android about android</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light text-center py-5">
+        <a href="" class="btn btn-primary btn-lg">Get It Now</a>
+      </section>
+
+    </main>
+
+    <footer class="text-center text-muted py-4">
+      Copyright YYYY kenjin.com
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        'use strict';
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
